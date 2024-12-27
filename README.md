@@ -11,7 +11,7 @@
 
 ## :notebook: Caso de Uso - Cardapio
 
-### Cadastrar Produto
+### Cadastrar Cardapio
 Informar o nome, menu, descrição, preço e link da imagem e o sistema armazenar no banco de dados.
 ### Filtrar Cardapio
 O sistema vai listar todos os cardápios com paginação de acordo com o menu informado. 
