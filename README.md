@@ -1,6 +1,13 @@
 # :beginner: Sistema Cardapio Digital
 
+> [!NOTE]
+>
+> *O sistema ainda está em desenvolvimento!*
+
+
+
  ## Requisitos
+
 * :computer: Ser capaz de cadastrar cardapio.
 * :computer: Ser capaz de filtrar cardapio por menu predefinido (Almoço, Janta, Lanche).
 * :computer: Ser capaz de consultar cardapio por código e nome.
@@ -8,26 +15,54 @@
 * :computer: Ser capaz de excluir o cardapio.
 
 
+## :notebook:  Caso de Uso - Cardapio
+<details>
+<summary style="font-size:20px;"><b>Caso de Uso</b></summary>
+<ul style="list-style:none;">
+   <li>
+      💾  Cadastrar Cardapio
+      <ul style="list-style:none;">
+         <li>Informar o nome, menu, descrição, preço e link da imagem e o sistema armazenar no banco de dados.</li>
+      </ul>
+   </li>
+   <li>
+     📋   Filtrar Cardapio
+      <ul style="list-style:none;">
+         <li>O sistema vai listar todos os cardápios com paginação de acordo com o menu informado..</li>
+      </ul>
+   </li>
+   <li>
+     🔍  Consultar Cardapio por nome e código
+      <ul style="list-style:none;">
+         <li>
+          O sistema deverá exibir o cardapio de acordo com o código ou nome passado.                         </li>
+      </ul>
+   </li>
+    <li>
+     📋  Listar Cardapio
+      <ul style="list-style:none;">
+         <li>
+          O sistema deverá listar todos os cardápios com paginação.                      
+         </li>
+      </ul>
+   </li>
+   <li>
+     🗑️  Excluir Cardapio
+      <ul style="list-style:none;">
+         <li>
+          O sistema deverá excluir o cardapio de acordo com o código informado. 
+         </li>
+      </ul>
+   </li>
+</ul>
+<br />
+<h3>Mockup do Cardapio-Form<h3>
+<img src="mockups/cardapio-form.png" />
+</details>
 
-## :notebook: Caso de Uso - Cardapio
-
-### Cadastrar Cardapio
-Informar o nome, menu, descrição, preço e link da imagem e o sistema armazenar no banco de dados.
-### Filtrar Cardapio
-O sistema vai listar todos os cardápios com paginação de acordo com o menu informado. 
-## Consultar Cardapio por nome e código
-O sistema deverá exibir o cardapio de acordo com o código ou nome passado.
-## Listar Cardapio
-O sistema deverá listar todos os cardápios com paginação.
-## Excluir Cardapio
-O sistema deverá excluir o cardapio de acordo com o código informado.
-## Mockup do Cardapio-Form
-
-
-
-![mockup](mockups/cardapio-form.png)
 
 ## Modelo de dados
+
 **tbl_cardapio:**
 
 | Nome do campo | Tipo de dados | Tamanho | Campo obrigatório | Unicidade | Editável |
@@ -41,7 +76,7 @@ O sistema deverá excluir o cardapio de acordo com o código informado.
 
 
 
-## Tecnologias
+## Tecnologias utilizadas
 
    <img align="left" 
       alt="java"
