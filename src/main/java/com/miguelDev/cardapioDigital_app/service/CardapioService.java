@@ -57,7 +57,12 @@ public class CardapioService implements ICardapio{
 
 	@Override
 	public void excluirCardapio(Long codigo) {
+		Cardapio obj = repository.findById(codigo).get();
+		if(Objects.isNull(obj)) {
+			throw new IllegalArgumentException("O objeto cardapio está nulo, não está cadastrado no banco!");
+		}		
 		
+		repository.deleteById(codigo);
 		
 	}
   
