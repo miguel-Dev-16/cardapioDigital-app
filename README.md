@@ -10,7 +10,7 @@
 
 * :computer: Ser capaz de cadastrar cardapio.
 * :computer: Ser capaz de filtrar cardapio por menu predefinido (Almoço, Janta, Lanche).
-* :computer: Ser capaz de consultar cardapio por código e nome.
+* :computer: Ser capaz de consultar cardapio por código ou nome.
 * :computer: Ser capaz de listar todos os cardápios com paginação.
 * :computer: Ser capaz de excluir o cardapio.
 
