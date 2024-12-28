@@ -32,7 +32,7 @@
       </ul>
    </li>
    <li>
-     🔍  Consultar Cardapio por nome e código
+     🔍  Consultar Cardapio por nome ou código
       <ul style="list-style:none;">
          <li>
           O sistema deverá exibir o cardapio de acordo com o código ou nome passado.                         </li>
